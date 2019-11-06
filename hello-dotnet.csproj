@@ -6,11 +6,8 @@
     <RootNamespace>hello_dotnet</RootNamespace>
   </PropertyGroup>
 
-<<<<<<< HEAD
   <ItemGroup>
     <PackageReference Include="Sentry" Version="1.2.0" />
   </ItemGroup>
 
-=======
->>>>>>> 264368bfa4877e8d18453a1bcf187b81837e51c5
 </Project>
