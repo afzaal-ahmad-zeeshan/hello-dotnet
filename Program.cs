@@ -7,12 +7,7 @@ namespace hello_dotnet
     {
         static void Main(string[] args)
         {
-            using (SentrySdk.Init("https://<hidden>@sentry.io/<hidden>"))
-            {
-                int a = 1;
-                int b = 0;
-                Console.WriteLine(a / b);
-            }
+            Console.WriteLine($"Sum of 2 and 2 is {Arithmetic.Add(2, 2)}.");
         }
     }
 }
